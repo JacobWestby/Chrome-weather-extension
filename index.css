@@ -1,0 +1,42 @@
+body {
+  transition: all 2s ease;
+}
+
+/* @keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+} */
+
+.weather__title {
+  opacity: 0;
+  font-size: 1.1rem;
+  transition: all 2s ease;
+  /* animation: fadein 2s; */
+  /* -webkit-animation: fadein 2s; Safari and Chrome */
+}
+
+.normal {
+  background: rgb(147, 228, 255);
+}
+
+.cloudy {
+  background: rgb(204, 204, 204);
+}
+
+#weather-now {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  line-height: normal;
+  margin: 10px;
+}
