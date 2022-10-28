@@ -1,0 +1,11 @@
+{
+    "name": "Weather extension",
+    "version": "1.0.0",
+    "description": "Shows the current temp at your location",
+    "manifest_version": 3,
+    "author": "Jacob Westby",
+    "action": {
+    "default_popup": "index.html",
+    "default_title": "Weather"
+    }
+}
